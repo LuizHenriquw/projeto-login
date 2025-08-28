@@ -1,0 +1,44 @@
+@charset "UTF-8"; 
+
+/*paleta de colores
+    Verde: #49a09d
+    lilas: #5f2c82
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #5f2c82;
+}
+
+section{
+    background-color: white;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 270px;
+    height: 500px;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+
+p{
+    text-align: justify;
+    font-size: 13px;
+}
+
+#imagem{
+    =
+    background-size: cover;
+    height: 45px;
+    background-position: center right;
+}
+
+#formulario{
+    margin: 12px;
+
+}
