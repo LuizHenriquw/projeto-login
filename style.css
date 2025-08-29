@@ -23,7 +23,8 @@ section{
     width: 270px;
     height: 500px;
     margin-top: 10px;
-    border-radius: 25px;
+    border-radius: 15px;
+ 
 }
 
 p{
@@ -32,13 +33,54 @@ p{
 }
 
 #imagem{
-    =
+    background-image: url(metal.jpg);
     background-size: cover;
-    height: 45px;
-    background-position: center right;
+    height: 200px;
+    background-position: bottom left;
+    border-radius: 15px 15px 0px 0px;
 }
 
 #formulario{
-    margin: 12px;
+    margin: 15px;
 
 }
+.imput{
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 10px;
+    width: 60%;
+    margin-top: 7px;
+    background-color: #6ac4bf;
+}
+
+.Entrar{
+    background-color: #5eb4b0;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    margin-top : 7px;
+    border-radius: 5px;
+    border: none;
+    width: 99%;  
+}
+
+.Entrar:hover{
+    background-color: #316663;
+}
+
+
+form > a{
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    margin-top: 7px;
+    border: 1px solid #5eb4b0;    
+    padding: 10px;
+    border-radius: 5px;
+    color: #2f5f51;
+    width: 90%
+}
+
+ form > a:hover{
+    background-color: #5eb4b0;
+ }
