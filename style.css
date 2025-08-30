@@ -26,7 +26,10 @@ section{
     border-radius: 15px;
  
 }
-
+h1{
+    color: #000000;
+    margin: 15px;
+}
 p{
     text-align: justify;
     font-size: 13px;
@@ -44,13 +47,23 @@ p{
     margin: 15px;
 
 }
+.label{
+    background-color: #6ac4bf;
+    padding: 1px;
+    background-color: #5F2C82;
+    border-radius: 7px;
+    margin: 5px;
+}
+
 .imput{
     padding: 8px;
     font-size: 15px;
-    border-radius: 10px;
-    width: 60%;
-    margin-top: 7px;
+    border-radius: 7px;
+    width: 77%;
     background-color: #6ac4bf;
+    border: 1px solid #5f2c82;
+    
+    
 }
 
 .Entrar{
@@ -68,6 +81,13 @@ p{
     background-color: #316663;
 }
 
+.material-symbols-outlined{
+    color: rgb(255, 255, 255);
+    display: inline;
+    font-size: px; 
+    
+}
+
 
 form > a{
     text-decoration: none;
@@ -78,7 +98,8 @@ form > a{
     padding: 10px;
     border-radius: 5px;
     color: #2f5f51;
-    width: 90%
+    width: 90%;
+    
 }
 
  form > a:hover{
