@@ -1,0 +1,14 @@
+@charset "UTF_8";
+
+@media screen and (min-width: 760px){
+
+body{
+    background-image: linear-gradient(to bottom, #5F2C81  ,#4A979B);
+    height: 98dvh;
+
+}
+
+section{
+    width: 70vw ;
+    height: ;
+}
