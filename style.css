@@ -37,7 +37,8 @@ section{
     height: 500px;
     margin-top: 10px;
     border-radius: 15px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.623);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+    transition: width .3s height .3s;
 }
 h1{
     color: #000000;
@@ -49,6 +50,7 @@ p{
 }
 
 #imagem{
+    display: block;
     background-image: url(metal.jpg);
     background-size: cover;
     height: 200px;
@@ -58,6 +60,7 @@ p{
 
 #formulario{
     margin: 15px;
+    display: block;
 
 }
 .label{
